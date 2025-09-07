@@ -1,0 +1,22 @@
+namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string nombre;
+
+            Console.WriteLine("Ingresa tu nombre porfavor: ");
+            nombre = Console.ReadLine();
+
+            if (nombre == "David")
+            {
+                Console.WriteLine("Hola");
+            }
+            else
+            {
+                Console.WriteLine("No te conozco");
+            }
+        }
+    }
+}
