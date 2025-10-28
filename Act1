@@ -27,6 +27,14 @@ namespace ConsoleApp1
 
             Console.WriteLine("La suma de las edades es: " + suma);
 
-            
+            int j = 0;
+            int sumawhile = 0;
+
+            while (j < edades.Length)
+            {
+                Console.WriteLine(edades[j] + "");
+                sumawhile += edades[j];
+                j++;
+            }
         }
     }
